@@ -1,5 +1,6 @@
 :root{--bg:#07100e;--ink:#f4f7f4;--muted:#a8b7b0;--panel:#101c18;--panel2:#15241f;--line:rgba(255,255,255,.1);--accent:#74f2bd;--accent2:#dafd58;--danger:#ff8b6a;--warning:#ffc96b;--shadow:0 24px 70px rgba(0,0,0,.32)}
 .theme-roofing{--hero1:#153f38;--hero2:#091d19}.theme-jackson{--hero1:#173952;--hero2:#0b1b27;--accent:#7fe0ff;--accent2:#f4dc64}.theme-zero{--hero1:#55230e;--hero2:#211006;--accent:#ff9b68;--accent2:#ffe06c}
+.theme-woods{--hero1:#3f2d15;--hero2:#171108;--accent:#efc978;--accent2:#f4f0ce}.theme-bizzy{--hero1:#513d06;--hero2:#1d1603;--accent:#ffd84d;--accent2:#fff0a6}.theme-roscoe{--hero1:#472039;--hero2:#1b0b15;--accent:#ff9bd9;--accent2:#ffe084}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:radial-gradient(circle at 80% 0,rgba(116,242,189,.12),transparent 34%),var(--bg);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5}
