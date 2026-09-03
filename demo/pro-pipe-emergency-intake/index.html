@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; form-action 'none'; base-uri 'none'">
+  <title>Pro Pipe — Emergency Callback Intake Concept</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="demo-ribbon" role="note">PRIVATE CONCEPT · SYNTHETIC DATA · NO LIVE INTEGRATION</div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Pro Pipe intake concept home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i></span>
+      <span><b>PRO PIPE</b><small>PLUMBING &amp; DRAIN</small></span>
+    </a>
+    <div class="header-actions">
+      <span class="coverage"><i aria-hidden="true"></i> 24/7 intake concept</span>
+      <a class="phone" href="tel:+10000000000" aria-label="Demo emergency phone path, placeholder number">Emergency line <b>(000) 000-0000</b></a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">EMERGENCY CALLBACK INTAKE SPRINT</p>
+        <h1>Tell dispatch<br>what's happening.<br><em>Right now.</em></h1>
+        <p class="lede">A fast, structured request path that gives a human dispatcher the location, urgency and best callback window before they call.</p>
+        <div class="promise-grid" aria-label="Concept safeguards">
+          <div><span>01</span><p><b>Urgent flag</b><small>Visible to staff immediately</small></p></div>
+          <div><span>02</span><p><b>Customer receipt</b><small>Clear request confirmation</small></p></div>
+          <div><span>03</span><p><b>Human dispatch</b><small>No automatic assignment</small></p></div>
+        </div>
+        <p class="boundary-note">Concept only. The emergency phone remains the fastest path. A callback request does not guarantee response time or service.</p>
+      </div>
+
+      <section class="intake-card" aria-label="Emergency callback intake concept">
+        <div class="card-head">
+          <div><span class="live-dot" aria-hidden="true"></span><b>REQUEST A CALLBACK</b></div>
+          <span>~ 60 SEC</span>
+        </div>
+        <div class="sample-banner">Interactive sample — entries stay in this browser</div>
+
+        <form id="intake-form">
+          <fieldset class="path-picker">
+            <legend id="intake-title">How urgent is this?</legend>
+            <label class="path-option urgent selected">
+              <input type="radio" name="path" value="emergency" checked>
+              <span class="path-icon" aria-hidden="true">!</span>
+              <span><b>Emergency</b><small>Active leak, backup or no water</small></span>
+              <i aria-hidden="true">NOW</i>
+            </label>
+            <label class="path-option">
+              <input type="radio" name="path" value="standard">
+              <span class="path-icon" aria-hidden="true">↗</span>
+              <span><b>Standard service</b><small>Repair, inspection or estimate</small></span>
+              <i aria-hidden="true">PLAN</i>
+            </label>
+          </fieldset>
+
+          <div class="emergency-callout" data-emergency-callout>
+            <b>Water near electricity or immediate danger?</b>
+            <span>Call 911 when appropriate. For the fastest plumbing response, use the emergency phone path.</span>
+          </div>
+
+          <div class="form-grid">
+            <label class="full">Service address <span>*</span><input name="address" autocomplete="street-address" placeholder="123 Sample Street" required></label>
+            <label>Service ZIP <span>*</span><input name="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" placeholder="00000" required></label>
+            <label>Your name <span>*</span><input name="name" autocomplete="name" placeholder="Sample Customer" required></label>
+            <label>Callback number <span>*</span><input name="phone" type="tel" autocomplete="tel" placeholder="(000) 000-0000" required></label>
+            <label>Best callback window <span>*</span>
+              <select name="window" required>
+                <option value="">Select a window</option>
+                <option>As soon as possible</option>
+                <option>Within 30 minutes</option>
+                <option>Within 1 hour</option>
+                <option>This afternoon</option>
+                <option>Tomorrow morning</option>
+              </select>
+            </label>
+            <label class="full">What's happening? <span>*</span><textarea name="issue" rows="3" placeholder="Example: Water is backing up into the downstairs shower." required></textarea></label>
+          </div>
+
+          <label class="consent"><input type="checkbox" name="consent" required><span>I agree to receive a service-related callback about this request. This is not consent to marketing messages.</span></label>
+          <button class="submit-button" type="submit"><span data-submit-label>Send priority callback request</span><b aria-hidden="true">→</b></button>
+          <p class="form-foot">No payment collected · No automatic dispatch · Demo submission only</p>
+        </form>
+
+        <section class="confirmation" data-confirmation hidden aria-live="polite" tabindex="-1">
+          <div class="confirm-icon" aria-hidden="true">✓</div>
+          <p class="eyebrow">SYNTHETIC RECEIPT</p>
+          <h2>Request is ready for human review.</h2>
+          <p>Your sample request <b data-confirm-id>PP-0000</b> was added to the local concept queue.</p>
+          <dl>
+            <div><dt>Priority</dt><dd data-confirm-priority>Urgent</dd></div>
+            <div><dt>Callback target</dt><dd data-confirm-target>Priority review</dd></div>
+            <div><dt>Dispatch</dt><dd>Human decision required</dd></div>
+          </dl>
+          <div class="sla-note"><b data-sla-title>Priority callback target</b><span data-sla-copy>This demo marks the request for immediate staff review. It does not guarantee arrival or service.</span></div>
+          <button type="button" class="reset-button" data-reset>Start another sample request</button>
+        </section>
+      </section>
+    </section>
+
+    <section class="handoff" aria-label="Concept workflow">
+      <div><span>01</span><b>Customer sends</b><small>Location + urgency + callback window</small></div><i aria-hidden="true">→</i>
+      <div><span>02</span><b>Staff sees priority</b><small>Structured notification + receipt</small></div><i aria-hidden="true">→</i>
+      <div><span>03</span><b>Dispatcher decides</b><small>Existing systems stay authoritative</small></div>
+    </section>
+
+    <section class="operations" aria-labelledby="queue-title">
+      <header class="section-head">
+        <div><p class="eyebrow">DISPATCHER PREVIEW</p><h2 id="queue-title">Urgent first. Every request accounted for.</h2></div>
+        <p>A synthetic queue showing how structured requests can remain visible until a person closes them.</p>
+      </header>
+
+      <div class="ops-grid">
+        <div class="queue-card">
+          <div class="queue-toolbar">
+            <div class="filters" role="group" aria-label="Filter sample requests">
+              <button class="filter active" data-filter="all" aria-pressed="true">All <span data-count="all">4</span></button>
+              <button class="filter" data-filter="urgent" aria-pressed="false">Urgent <span data-count="urgent">2</span></button>
+              <button class="filter" data-filter="open" aria-pressed="false">Open <span data-count="open">3</span></button>
+            </div>
+            <span class="last-update">SYNTHETIC · LOCAL ONLY</span>
+          </div>
+          <div class="queue-list" data-queue-list aria-live="polite"></div>
+        </div>
+
+        <aside class="request-detail" aria-live="polite">
+          <div class="detail-top"><span data-detail-id>PP-2408</span><b data-detail-badge>URGENT</b></div>
+          <p class="detail-time" data-detail-time>OPEN · 7 MIN AGO</p>
+          <h3 data-detail-title>Active kitchen supply leak</h3>
+          <p data-detail-copy>Water shutoff attempted; leak is still active under the sink.</p>
+          <dl>
+            <div><dt>LOCATION</dt><dd data-detail-location>Sample address · 00000</dd></div>
+            <div><dt>CALLBACK</dt><dd data-detail-window>As soon as possible</dd></div>
+            <div><dt>OWNER</dt><dd>Human dispatcher</dd></div>
+          </dl>
+          <button class="resolve-button" type="button" data-resolve>Mark sample resolved</button>
+          <p class="human-note"><span aria-hidden="true">H</span><b>Human decision gate</b><small>This concept never assigns or contacts a technician.</small></p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="summary-section" aria-labelledby="summary-title">
+      <div>
+        <p class="eyebrow">24-HOUR UNRESOLVED SUMMARY</p>
+        <h2 id="summary-title">Open work shouldn't disappear overnight.</h2>
+        <p>A concise, once-daily view of synthetic requests that still need a human outcome.</p>
+        <button class="summary-toggle" type="button" data-summary-toggle aria-expanded="false">Preview sample summary <span>→</span></button>
+      </div>
+      <div class="summary-placeholder" data-summary-placeholder>
+        <span class="summary-ring"><b>24h</b><i></i></span>
+        <b>Daily visibility check</b><small>Open the synthetic summary preview.</small>
+      </div>
+      <div class="summary-card" data-summary-card hidden>
+        <header><span>06:45 · SAMPLE PREVIEW</span><b>UNRESOLVED REQUESTS</b></header>
+        <div class="summary-metrics"><div><b data-summary-open>03</b><span>OPEN</span></div><div><b data-summary-urgent>02</b><span>URGENT</span></div><div><b data-summary-aged>01</b><span>OVER 24H</span></div></div>
+        <ul data-summary-list></ul>
+        <p>Illustrative only — not actual volume, response time or performance.</p>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div><p class="eyebrow">FIXED-SCOPE SPRINT</p><h2>One intake path.<br>Three business days.</h2><p>After access, routing approval and start-payment confirmation.</p></div>
+      <div class="offer-price"><span>TOTAL</span><b>$850</b><small>$425 start · $425 on acceptance</small></div>
+      <div class="offer-scope">
+        <span>INCLUDED</span>
+        <ul><li>Address, ZIP, urgency and callback window</li><li>Urgent staff flag + approved customer receipt</li><li>Daily unresolved-request summary</li><li>Field/routing map + rollback instructions</li></ul>
+      </div>
+      <div class="offer-scope excluded">
+        <span>NOT INCLUDED</span>
+        <ul><li>CRM replacement or automatic dispatch</li><li>Emergency-response guarantees</li><li>Marketing texts, payments or ongoing support</li></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <b>PRO PIPE EMERGENCY CALLBACK INTAKE · PRIVATE CONCEPT</b>
+    <p>All names, addresses, phone numbers, request IDs, times and counts are synthetic. No live integration. No data leaves this page.</p>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+</html>
