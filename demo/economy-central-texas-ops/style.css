@@ -1,0 +1,81 @@
+.economy-demo{
+  --hero1:#0f3b45;
+  --hero2:#06191d;
+  --accent:#55e1d0;
+  --accent2:#ffd15f;
+  --panel:#0c1c1e;
+  --panel2:#12282a;
+}
+
+.economy-demo .brand-mark{
+  background:linear-gradient(145deg,var(--accent),#c3fff6);
+}
+
+.economy-demo .hero-copy{
+  background:
+    radial-gradient(circle at 90% 10%,rgba(255,209,95,.13),transparent 29%),
+    linear-gradient(145deg,var(--hero1),var(--hero2));
+}
+
+.economy-demo .command{
+  background:linear-gradient(180deg,#10292b,#081719);
+}
+
+.pilot-head{
+  display:grid;
+  grid-template-columns:1fr minmax(220px,300px);
+  align-items:end;
+  gap:24px;
+}
+
+.pilot-head .subcopy{margin-bottom:0}
+
+.credit-chip{
+  position:relative;
+  overflow:hidden;
+  padding:18px;
+  border:1px solid color-mix(in srgb,var(--accent) 38%,transparent);
+  border-radius:18px;
+  background:linear-gradient(145deg,rgba(85,225,208,.12),rgba(255,209,95,.07));
+}
+
+.credit-chip:after{
+  content:"";
+  position:absolute;
+  width:100px;
+  height:100px;
+  right:-36px;
+  top:-48px;
+  border-radius:50%;
+  border:18px solid rgba(255,255,255,.045);
+}
+
+.credit-chip small,
+.credit-chip span{
+  display:block;
+  color:var(--muted);
+}
+
+.credit-chip small{
+  text-transform:uppercase;
+  letter-spacing:.09em;
+  font-size:10px;
+  font-weight:900;
+}
+
+.credit-chip b{
+  display:block;
+  margin:3px 0;
+  color:var(--accent);
+  font-size:34px;
+  letter-spacing:-.06em;
+}
+
+.credit-chip span{font-size:11px}
+
+.economy-demo .boundary b{color:#d9e9e5}
+
+@media(max-width:760px){
+  .pilot-head{grid-template-columns:1fr}
+  .credit-chip{max-width:none}
+}
